@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pro.css">  
+  <title>Document</title>
+  <style>
+
+  </style>
+</head>
+<body>
+  <div class="crud">
+        <div class="head">  
+        <h1>CRUDS</h1>
+    <P>PRODUCT MANAGEMENT SYSTEM</P>
+      </div> 
+      <div class="inputs">
+<input type="text" id="tit" placeholder="title">
+<div class="price">
+<input onkeyup="getTotal()" type="number" id="pri" placeholder="price">
+<input onkeyup="getTotal()" type="number" id="tax" placeholder="taxes">
+<input onkeyup="getTotal()" type="number" id="ads" placeholder="ads">
+<input onkeyup="getTotal()" type="number" id="dis" placeholder="discount">
+<small id="Total">4512</small>
+<input type="text" id="cou" placeholder="count">
+<input type="text" id="cat" placeholder="category">
+<button id="create">create</button>
+</div>
+     <div class="outputs">
+<input id="sea" type="search" placeholder="search">
+<button id="sbt">"Search By Title"</button>
+<button id="sbc">"Search By category"</button>
+<button id="del">"Delete All(15)" </button>
+     </div>
+     <div class="table">
+      <table>
+        <tr>
+          <th>number</th>
+        <th>title</th>
+        <th>price</th>
+        <th>taxes</th>
+        <th>ads</th>
+        <th>discount</th>
+        <th>total</th>
+        <th>category</th>
+        <th>ubdate</th>
+        <th>delete</th>
+        <th></th>
+       </tr>
+       <tbody>
+        <tr>
+          <td>1</td>
+          <td>samsung</td>
+          <td>2000</td>
+          <td>100</td>
+          <td>50</td>
+          <td>80</td>
+          <td>1230</td>
+          <td>phone</td>
+          <td><button id="update">update</button></td>
+          <td><button id="delete">delete</button></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>oppo</td>
+          <td>2000</td>
+          <td>100</td>
+          <td>50</td>
+          <td>80</td>
+          <td>1230</td>
+          <td>phone</td>
+          <td><button id="update">update</button></td>
+          <td><button id="delete">delete</button></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>nokia</td>
+          <td>2000</td>
+          <td>100</td>
+          <td>50</td>
+          <td>80</td>
+          <td>1230</td>
+          <td>phone</td>
+          <td><button id="update">update</button></td>
+          <td><button id="delete">delete</button></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>iphone</td>
+          <td>2000</td>
+          <td>100</td>
+          <td>50</td>
+          <td>80</td>
+          <td>1230</td>
+          <td>phone</td>
+          <td><button id="update">update</button></td>
+          <td><button id="delete">delete</button></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>black berry</td>
+          <td>2000</td>
+          <td>100</td>
+          <td>50</td>
+          <td>80</td>
+          <td>1230</td>
+          <td>phone</td>
+          <td><button id="update">update</button></td>
+          <td><button id="delete">delete</button></td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>relme</td>
+          <td>2000</td>
+          <td>100</td>
+          <td>50</td>
+          <td>80</td>
+          <td>1230</td>
+          <td>phone</td>
+          <td><button id="update">update</button></td>
+          <td><button id="delete">delete</button></td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+    </div>
+     <script src="pro.js"></script>
+
+  </body>
+</html>

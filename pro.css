@@ -1,0 +1,172 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: rgb(32, 32, 32);
+    margin-left: 70px;
+    color: white;
+    
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    margin-right: 35px;
+
+}
+p{
+    text-align: center;
+    color: aliceblue;
+    margin-right: 30px;
+}
+
+#tit{margin: 3px;
+    width: 1500px;
+    height: 30px;
+    padding: 6;
+    background: black;
+    border-radius: 7px;
+    border: 3px solid black;
+    color: white;
+}
+#pri{
+    width : 360px;
+    margin-left: 3px;
+    height: 30px;
+    background: black;
+    border-radius: 7px;
+    border: 3px solid black;
+    color: white;
+}
+#tax{width: 360px;
+
+    height: 30px;
+    background: black;
+    border-radius: 7px;
+    border: 3px solid black;
+    color: white;
+}
+#ads{ width: 360px;
+    height: 30px;
+    background: black;
+    border-radius: 7px;
+    border: 3px solid black;
+    color: white;
+}
+#dis{
+    width: 344px;
+    height: 30px;
+    background: black;
+    border-radius: 7px;
+    border: 3px solid black;
+    color: white;
+
+}
+#cou{margin: 3px;
+    width: 1500px;
+    height: 30px;
+    padding: 6;
+    background: black;
+    border-radius: 7px;
+    border: 3px solid black;
+    color: white;
+}
+#cat{margin: 3px;
+width: 1500px;
+height: 30px;
+padding: 6;
+background: black;
+border-radius: 7px;
+border: 3px solid black;
+color: white;
+}
+#Total{
+    background: red;
+    color: white;
+    padding: 5px 2px;
+    border-radius: 7px;
+}
+#Total::before{
+    content: 'Total : ';
+    color: aliceblue;
+}
+
+
+#create{
+    margin: 3px;
+    width: 1500px;
+    height: 30px;
+    padding: 6;
+    background: blue;
+    border-radius: 7px;
+    border: 3px solid black;
+    color: white;
+    cursor: pointer;
+
+
+}
+#sea{margin: 3px;
+    width: 1500px;
+    height: 30px;
+    padding: 6;
+    background: black;
+    border-radius: 7px;
+    border: 3px solid black;
+    color: white;
+}
+#sbt{
+    margin: 3px;
+    width: 700px;
+    height: 30px;
+    padding: 6;
+    background: blue;
+    border-radius: 7px;
+    border: 3px solid black;
+    color: white;
+    cursor: pointer;
+
+
+}
+#sbc{
+    margin-left: 90px;
+    width: 700px;
+    height: 30px;
+    padding: 6;
+    border-radius: 5px;
+    background: blue;
+    border-radius: 7px;
+    border: 3px solid black;
+    color: white;
+    cursor: pointer;
+    
+
+}
+#del{margin: 3px;
+    width: 1500px;
+    height: 30px;
+    padding: 6;
+    background: blue;
+    border-radius: 7px;
+    border: 3px solid black;
+    color: white;
+    cursor: pointer;
+
+}
+table{
+    width: 90%;
+    text-align: center;
+    text-transform: uppercase;
+}
+#update{
+    background: #ff0000;
+    cursor: pointer;
+    color: white;
+    border-radius: 25px;
+}
+#delete{
+    background: #ff0000;
+    cursor: pointer;
+    color: white;
+    border-radius: 25px;}
